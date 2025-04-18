@@ -1,5 +1,5 @@
 import requests
-from app.fetch_articles_summary import fetch_articles_summary
+# from app.fetch_articles_summary import fetch_articles_summary
 
 def fetch_articles(next_page_id, isNextPageAvailable):
     if not isNextPageAvailable:
@@ -14,12 +14,12 @@ def fetch_articles(next_page_id, isNextPageAvailable):
 
     cleaned_articles = []
     for items in articles:
-        i = 1
-        summary_url = items.get("link", "")
-        print(f"Fetching summary {1}... Please wait.")
-        summary = fetch_articles_summary(summary_url)
-        ("Summary received.")
-        i+=1
+        # i = 1
+        # summary_url = items.get("link", "")
+        # print(f"Fetching summary {1}... Please wait.")
+        # summary = fetch_articles_summary(summary_url)
+        # ("Summary received.")
+        # i+=1
 
         cleaned_article = {
             "article_id": items.get("article_id", ""),
@@ -36,7 +36,7 @@ def fetch_articles(next_page_id, isNextPageAvailable):
             "language": items.get("language", ""),
             "country": items.get("country", []),
             "category": items.get("category", []),
-            "summary": summary,
+            # "summary": summary,
             "views": 0
         }
 

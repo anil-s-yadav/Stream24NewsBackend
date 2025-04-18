@@ -92,3 +92,12 @@ id,text,summary
 6. Host on Renderand Start Executing all of this automatically at 12AM.
 
 All set!!
+
+
+
+
+more ideas to do-
+1. dont user summary model. So discription which got with newsdata.io api.
+2. Use csebuetnlp/mT5_multilingual_XLSum pre-hosted api. (I cant train, summary is not prfect, limit-30req/min support many languages.)
+3. Train my own model and host on huggingface (that will be pulic)
+4. host on aws 1 year free teir.
