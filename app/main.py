@@ -1,5 +1,5 @@
-from fetch_articles import fetch_articles
-from firestore_utils import store_article
+from app.fetch_articles import fetch_articles
+from app.firestore_utils import store_article
 
 def process_articles():
     next_page_id = ""

@@ -1,5 +1,5 @@
 import requests
-from fetch_articles_summary import fetch_articles_summary
+from app.fetch_articles_summary import fetch_articles_summary
 
 def fetch_articles(next_page_id, isNextPageAvailable):
     if not isNextPageAvailable:
