@@ -1,0 +1,14 @@
+{
+    "type": "service_account",
+    "project_id": "stream24-news",
+    "private_key_id": "56c96373570f38007714d225949400b2e36bc25a",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCtBkIFNUWVFH//\n77yCz9yaiTf2dGggLpWZAeHS6xE/gDzbmqOQklxskRV+pUOkW5gJQeFFq0cq/8RM\n0Ec4pcrem4YhHJU+Yw3zy1r8AHzB5+GZImfbhGUq2TPJAX4YA8CPNYifbelNUz9G\nTGaw27NAPdVErklUnmWS8/ygULH63KPbZM1T/H5r2mmbUixu5lnKP56Cz3JB8sOB\ntctdWu7OyRwgaguMxDMysq3ZIc1uwcXU5q79DGFgjQpdUviahWM9fvHdw6obsCWP\nwwtySDBDoaIJUgVvQfCsKYGYq2PJz+nZVGlR/8PBoIbGCDAojjuWjnzFFVu1SnyW\n5AJDq4+1AgMBAAECggEAEGMaV6HvACqb4OKUyRLkwuIiIb5uqjWfR4mNGMvYq1n6\n6ZWgzi1+gW3QSlleqa9fG+lYa5/IMsNclSXYyP2y1BiIwJQTcoAxLxjgeiOVrUvH\n6xf+HCVS65b8t5njlmSslSOt1+OyB/fNc1wDEdcNCBWTIFkdat1Bo4RmNczOvoKF\nSDY9ug+yPuedQFv8hmw1cbRr2hKGmb9GPjJXJcoh8pp3QzSfS+Skdw3+JLUdf4c7\nFv7brrYEU8Y70zts40sj2yO6CAXbdQMKHJth5o6F+PIT6fwU3gN5a0XZSmBhMXo1\n41t85lVEb4IvZ3wRlGUpUpY48GHaFzd2comM+E1GdQKBgQDUU1YTmuCetwtlIAxi\nEfVuFChg0AO/MY+yC4UY9KyreO2nNG+bDt6bB55pLgq7tXl18y8P1w8nIivqjVY4\nAHiVwNF1fmVGbP6P9PEXz+2qUBtAIIPjxmJusAP3k49vYmPVIL/S/winEAJu+SjK\nvRBRxlatwTDG/JMiqY8aKb5dUwKBgQDQnWZ0F1Va4Gi5/xPuecgNva9oUviLf/9s\nd5wU2jaVoKgIArVV3kk5fC/PlvPWrWpamIMCBwcKvU32Ym7+G5hyqB/jkyJcI+NR\nu2xuDFUjxZPK30cwId5Aqk7XlxWe8+xK7uIISbhEIdDzOw5z4JfzJRM+uDgfDN80\n4+MNjoM11wKBgQC0X/OhBhLKYqA4kYhTjAQfNtqynCSCuVzkmWrBr6I8raffQumJ\nJZGwzEEkA2w02M9Nh4E0iLOjwCDkypszShsmxT5r/SuWL6P2sdRbMVYrOJBd4wGI\ncBFRDRDhsybILiK3fXHYkrZMDoqysdKYoRMLFV6vj46bjRiF+tvKEypYZwKBgQCB\nUBAiBhSysEg6gxMnz/ViDyKb2FKYpk7+PWZSxrDvLxb5YDRnddKN/5zjYP7lI7m5\nTrBmoVSMI6wf/gQvH4vwBqc9ugaidtyB3VvpG1vrQJ3MM3s9KsFJ9EfK+6w7S5g9\nGrahzJCcKxoKq6DZ025dGa5EQo0HMkNp1Zj43k4XIQKBgFulcFjz+bFgiuwKuZAG\nwzTTbHo2STmtriAbiM+Jz3mchn1KqANrc15lyk0A0I4TLkKT/hHQ6s+Tp4cgUSTR\n8wkVXLxAAue4cwfVpgT86G3qCR3HgmWxTcezYEGSfu3E4knz0Mf+qwvRY5J8SGN4\nXvLIayxuh9iFfJHazClQf4v9\n-----END PRIVATE KEY-----\n",
+    "client_email": "firebase-adminsdk-fbsvc@stream24-news.iam.gserviceaccount.com",
+    "client_id": "107015252494598934831",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fbsvc%40stream24-news.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
+  
