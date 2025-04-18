@@ -1,10 +1,14 @@
 # firestore_utils.py
 import firebase_admin
 from firebase_admin import credentials, firestore
+import os
+import json
 
 def initialize_firestore():
     if not firebase_admin._apps:
-        cred = credentials.Certificate("stream24news-key.json")
+       # Load credentials from environment
+        cred_dict = json.loads(os.environ["GOOGLE_CREDENTIALS"])
+        cred = credentials.Certificate(cred_dict)
         firebase_admin.initialize_app(cred)
     return firestore.client()
 
