@@ -1,0 +1,27 @@
+name: Daily Python Job
+
+on:
+  schedule:
+    - cron: "0 9 * * *"  # Runs at 2:30 PM IST (UTC+5:30 -> 09:00 UTC)
+  workflow_dispatch:     # Allows manual run from GitHub UI
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run main script
+        env:
+          GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
+        run: python app/main.py
