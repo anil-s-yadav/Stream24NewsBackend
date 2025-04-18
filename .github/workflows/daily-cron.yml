@@ -2,7 +2,7 @@ name: Daily Python Job
 
 on:
   schedule:
-    - cron: "*/5 * * * *"  # Runs at 2:30 PM IST (UTC+5:30 -> 09:00 UTC)
+    - cron: "30 18 * * *"  # Runs at 12:00 AM IST (UTC+5:30)
   workflow_dispatch:     # Allows manual run from GitHub UI
 
 jobs:
